@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hidden-content {
+        display: none;
+      }
+      .hidden-content.reveal-btn {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Event Listener</h1>
+    <div class="container">
+      <div class="boxes box-1">
+        <h1 id="heading">Example 1</h1>
+        <button class="btn-1" onclick="alert('world is a bitch')">Enter</button>
+      </div>
+      <div class="boxes box-2">
+        <h1 id="heading">Example 2</h1>
+        <button class="btn-2">Enter</button>
+      </div>
+      <div class="boxes box-3">
+        <h1 id="heading">Example 3</h1>
+        <button class="btn-3">Enter</button>
+      </div>
+      <div class="reveal">
+        <button class="reveal-btn boxes">Reveal More</button>
+        <div class="hidden-content boxes">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+          necessitatibus placeat fuga officiis, eaque ipsam provident quas
+          doloribus quia optio accusantium atque reprehenderit similique
+          molestiae quidem corporis! Quasi, et magni.
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="eventListener.js"></script>
+</html>

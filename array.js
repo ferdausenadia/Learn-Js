@@ -1,0 +1,20 @@
+var countries = ["Bangladesh", "USA", "UK"];
+console.log(countries);
+console.log(countries[0]);
+console.log(countries.length);
+countries[1] = "Ireland";
+console.log(countries);
+countries[3] = "Turkey";
+console.log(countries);
+countries[countries.length] = "Istanbul";
+console.log(countries);
+//push pop method always works from last
+countries.push("Singapore");
+console.log(countries);
+countries.pop();
+console.log(countries);
+countries.push("Japan", "China");
+countries.shift();
+console.log("After shift " + countries);
+countries.unshift("Hello");
+console.log(countries);
